@@ -1,0 +1,28 @@
+{
+  "name": "gorank",
+  "version": "1.0.0",
+  "description": "Go/Weiqi/Baduk system for ranking management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "DEBUG=app node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmanzur/gorank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmanzur/gorank/issues"
+  },
+  "homepage": "https://github.com/gmanzur/gorank#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
